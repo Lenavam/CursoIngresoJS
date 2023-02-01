@@ -8,8 +8,8 @@ function sumar()
 	let numeroDos;
 	let suma;
 
-	numeroUno = txtIdNumeroUno.value;
-	numeroDos = txtIdNumeroDos.value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
     
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);

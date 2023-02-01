@@ -9,8 +9,8 @@ function sumar()
 	let numeroDos;
 	let sumar;
 
-	numeroUno = txtIdNumeroUno.value;
-	numeroDos = txtIdNumeroDos.value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
@@ -26,8 +26,8 @@ function restar()
 	let numeroDos;
 	let Resta;
 
-	numeroUno = txtIdNumeroUno.value;
-	numeroDos = txtIdNumeroDos.value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
@@ -43,8 +43,8 @@ function multiplicar()
 	let numeroDos;
 	let multiplicacion;
 
-	numeroUno = txtIdNumeroUno.value;
-	numeroDos = txtIdNumeroDos.value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
@@ -60,8 +60,8 @@ function dividir()
 	let numeroDos;
 	let division;
 
-	numeroUno = txtIdNumeroUno.value;
-	numeroDos = txtIdNumeroDos.value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);

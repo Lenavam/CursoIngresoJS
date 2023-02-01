@@ -9,12 +9,12 @@ function mostrarAumento()
 	let importeFinal;
 	let descuento;
 
-	importeInicial = txtIdImporte.value;
+	importeInicial = document.getElementById("txtIdImporte").value;
 
-	importeInicial = parseInt(importeFinal);
+	importeInicial = parseInt(importeInicial);
 
 	importeFinal = importeInicial * 0.25;
 	descuento = importeInicial - importeFinal;
 
-	txtIdResultado.value = descuento;
+    document.getElementById("txtIdResultado").value = descuento;
 }

@@ -10,8 +10,8 @@ function mostrarAumento()
 	let importeFinal;
 	let aumento;
 
-	ingreseSueldo = txtIdSueldo.value;
-	resultado = txtIdResultado.value;
+	ingreseSueldo = document.getElementById("txtIdSueldo").value;
+	resultado = document.getElementById("txtIdResultado").value;
 
 	ingreseSueldo = parseInt(ingreseSueldo);
 
@@ -19,5 +19,5 @@ function mostrarAumento()
 
 	aumento = ingreseSueldo + importeFinal;
 	//Tener como ej el ejercicio 10
-	txtIdResultado.value = aumento;
+	document.getElementById("txtIdResultado").value = aumento;
 }
