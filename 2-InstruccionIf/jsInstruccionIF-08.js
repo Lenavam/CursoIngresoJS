@@ -1,8 +1,16 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("hola");
-	
+	let edad;
+    let estadoCivil;
 
+    edad = document.getElementById("txtIdEdad").value;
+    estadoCivil = document.getElementById("estadoCivil").value;
+    
+    edad = parseInt(edad);
 
-}//FIN DE LA FUNCIÓN
+     if (edad >= 18 && estadoCivil == "Soltero") {
+
+		alert("Es soltero y NO es menor");
+      
+     }
+}
