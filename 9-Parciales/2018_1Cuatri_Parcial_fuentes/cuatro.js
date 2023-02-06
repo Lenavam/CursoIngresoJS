@@ -2,11 +2,10 @@ function mostrar()
 {
     let primerNumero;
     let segundoNumero;
-    let resta;
     let suma;
 
-    primerNumero = prompt(primerNumero);
-    segundoNumero = prompt(segundoNumero);
+    primerNumero = prompt("Ingrese el primer número");
+    segundoNumero = prompt("Ingrese el segundo número");
 
     primerNumero = parseFloat(primerNumero);
     segundoNumero = parseFloat(segundoNumero);
@@ -17,9 +16,7 @@ function mostrar()
 
     } else if (primerNumero > segundoNumero) {
 
-        resta = primerNumero - segundoNumero;
-
-        alert(resta);
+        alert(primerNumero - segundoNumero);
 
     } else if (primerNumero < segundoNumero && (primerNumero + segundoNumero) > 10) {
 
